@@ -12,3 +12,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+ * {
+   margin: 0%;
+   padding:0;
+ }
+
+.container {
+  max-width:980px;
+  margin:auto;
+  width:100%;
+}
+
+.cardList {
+  margin-top:40px;
+}
+.card-item {
+  margin-bottom:20px;
+}
+.card-Item img {
+  width:120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+img {
+  width:100%;
+}
+
+li {
+  margin:0;
+  list-style: none;
+  padding:4px 0;
+}
